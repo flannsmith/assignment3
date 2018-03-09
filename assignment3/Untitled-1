@@ -1,0 +1,7 @@
+Taking input from console as options --input
+Using cli.py as the main file to parse the inputs
+Inputs can be a network or a local file
+Getting the instructions to be performed and the size of the grid from the file
+Applying the instructions to the grid in terms of turning on and turning off and witching the leds
+Counting the leds that are ON in the grid.
+

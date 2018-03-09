@@ -35,7 +35,7 @@ setup(
     packages=find_packages(include=['assignment3']),
     entry_points={
         'console_scripts': [
-            'assignment3=assignment3.cli:main',
+            'solve_led=assignment3.cli:main',
         ],
     },
     include_package_data=True,
