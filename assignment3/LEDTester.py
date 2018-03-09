@@ -14,6 +14,15 @@ class LEDTester():
             col1 = int(commands.group(3))
             row2 = int(commands.group(4))
             col2 = int(commands.group(5))
+            if row1 < 0:
+                row1 = 0
+            if col1 < 0:
+                col1 = 0
+            if row2 >= self.N:
+                row2 = self.N-1
+            if col2 >= self.N:
+                col2 = self.N-1
+            
             if method == "turn on":
                 for r in range(row1,row2+1):
                     for c in range(col1,col2+1):
